@@ -1,0 +1,20 @@
+{
+  "name": "vgot/pyload",
+  "type": "library",
+  "description": "A simple API interface for pyLoad",
+  "keywords": ["pyload", "api"],
+  "homepage": "https://github.com/ValentinGot/pyload",
+  "license": "Apache License 2.O",
+  "authors": [
+    {
+      "name": "Valentin GOT",
+      "email": "gotvalentin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-0": { "PyLoad": "." }
+  }
+}
